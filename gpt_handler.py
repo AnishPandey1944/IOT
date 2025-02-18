@@ -4,7 +4,7 @@ import logging
 
 class GPTHandler:
     def __init__(self, api_key=None):
-        self.api_key ='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' or os.getenv("OPENAI_API_KEY")
+        self.api_key ='#OPENAI API KEY' or os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             raise ValueError("API key is required for GPT operations")
         
